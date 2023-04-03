@@ -1,0 +1,24 @@
+.input_wrapper {
+  border-radius: 2px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 90%;
+  padding: 12px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(204, 203, 202);
+  margin: 4px 0 4px 0;
+}
+.input:focus{
+  outline: none;
+}
+
+.input_error {
+  font-size: 0.7em;
+  color: red;
+}

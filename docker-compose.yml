@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  client:
+    container_name: client
+    image: crystal-client
+    build: 
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/usr/app/client
+      - /usr/src/app/client/node_modules 
+
